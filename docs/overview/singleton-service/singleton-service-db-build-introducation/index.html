@@ -6,7 +6,7 @@
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="revised" content="2020-07-14T07:24:37 CST">
-<title>Download and Installation :: Singleton</title>
+<title>DB builder for User guideline :: Singleton</title>
 <link rel="shortcut icon" href="https://vmware.github.io/singleton/images/favicon.png" type="image/x-icon" />
 <link href="https://vmware.github.io/singleton/css/font-awesome.min.css" rel="stylesheet">
 <link href="https://vmware.github.io/singleton/css/nucleus.css" rel="stylesheet">
@@ -25,7 +25,7 @@
 
     
   </head>
-  <body data-url="/docs/get-started/download-and-installation/">
+  <body data-url="/docs/overview/singleton-service/singleton-service-db-build-introducation/">
     
       <header>
   <div class="logo">
@@ -71,14 +71,13 @@
             <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
         <ul>
-    <li data-nav-id="/docs/get-started/" class="dd-item parent haschildren
+    <li data-nav-id="/docs/get-started/" class="dd-item haschildren
         ">
       <div>
-      <a href="https://vmware.github.io/singleton/docs/get-started/">Get Started</a>
-            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      <a href="https://vmware.github.io/singleton/docs/get-started/">Get Started</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
         <ul>
-      <li data-nav-id="/docs/get-started/download-and-installation/" class="dd-item active">
+      <li data-nav-id="/docs/get-started/download-and-installation/" class="dd-item">
         <div>
           <a href="https://vmware.github.io/singleton/docs/get-started/download-and-installation/">
             Download and Installation
@@ -94,19 +93,21 @@
     </li>
         </ul>
     </li>
-    <li data-nav-id="/docs/overview/" class="dd-item haschildren
+    <li data-nav-id="/docs/overview/" class="dd-item parent haschildren
         ">
       <div>
-      <a href="https://vmware.github.io/singleton/docs/overview/">Overview</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      <a href="https://vmware.github.io/singleton/docs/overview/">Overview</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
         <ul>
-    <li data-nav-id="/docs/overview/singleton-service/" class="dd-item haschildren
+    <li data-nav-id="/docs/overview/singleton-service/" class="dd-item parent haschildren
         ">
       <div>
-      <a href="https://vmware.github.io/singleton/docs/overview/singleton-service/">Singleton Service</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      <a href="https://vmware.github.io/singleton/docs/overview/singleton-service/">Singleton Service</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
         <ul>
-      <li data-nav-id="/docs/overview/singleton-service/singleton-service-db-build-introducation/" class="dd-item">
+      <li data-nav-id="/docs/overview/singleton-service/singleton-service-db-build-introducation/" class="dd-item active">
         <div>
           <a href="https://vmware.github.io/singleton/docs/overview/singleton-service/singleton-service-db-build-introducation/">
             DB builder for User guideline
@@ -414,13 +415,24 @@
    Documentation</option> 
     <option value="/docs/get-started/" >
   - 
-   Get Started</option> 
-      <option value="/docs/get-started/download-and-installation/"  selected>-- Download and Installation</option>
-      <option value="/docs/get-started/quick-start/" >-- Quick Start</option>
-  
+   Get Started</option>
     <option value="/docs/overview/" >
   - 
-   Overview</option>
+   Overview</option> 
+    <option value="/docs/overview/singleton-service/" >
+  -- 
+   Singleton Service</option> 
+      <option value="/docs/overview/singleton-service/singleton-service-db-build-introducation/"  selected>--- DB builder for User guideline</option>
+      <option value="/docs/overview/singleton-service/singleton-service-script/" >--- Singleton Service Script</option>
+    <option value="/docs/overview/singleton-service/configurations/" >
+  --- 
+   Configurations</option>
+      <option value="/docs/overview/singleton-service/singleton-service-apis/" >--- Singleton Service APIs</option>
+  
+    <option value="/docs/overview/singleton-sdk/" >
+  -- 
+   Singleton SDK</option>
+  
     <option value="/docs/tutorials/" >
   - 
    Tutorials</option>
@@ -447,85 +459,346 @@
       </div>
     
 
-    <h1>Download and Installation</h1>
+    <h1>DB builder for User guideline</h1>
     
     
     
-    <p>Singleton official 0.1.0 Release is available now! Choose the download that&rsquo;s right for you and click one of the links below.</p>
-<h1 id="singleton-service-010-binaries">Singleton Service 0.1.0 Binaries</h1>
-<h2 id="downloading">Downloading</h2>
-<table>
-<thead>
-<tr>
-<th>filename</th>
-<th>sha1 hash</th>
-<th>branch/tag</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="http://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n/0.1.0/singleton-manager-i18n-0.1.0.jar">singleton-manager-i18n-0.1.0.jar</a></td>
-<td><code>8e7599495292ce34cdb9769ec43695999071a1fe</code></td>
-<td>master/<a href="https://github.com/vmware/singleton/releases/tag/v0.1.0-Singleton-Service">v0.1.0-Singleton-Service</a></td>
-</tr>
-<tr>
-<td><a href="http://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-l10n/0.1.0/singleton-manager-l10n-0.1.0.jar">singleton-manager-l10n-0.1.0.jar</a></td>
-<td><code>8d744bb83e310a1b451a68fb65999803488c8cfc</code></td>
-<td>master/<a href="https://github.com/vmware/singleton/releases/tag/v0.1.0-Singleton-Service">v0.1.0-Singleton-Service</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="installation">Installation</h2>
-<p>Singleton Service include 2 types of builds, one is i18n manager, the other is l10n manager:</p>
+    <h1 id="1-prerequisites">1. Prerequisites</h1>
 <ul>
-<li>I18n manager is the main build, it provides the <a href="https://vmware.github.io/singleton/docs/overview/singleton-service/singleton-service-apis/">restful APIs</a> to talk with Singleton SDK.</li>
-<li>L10n manager will work together with I18n manager to achieve the feature <a href="https://vmware.github.io/singleton/docs/overview/singleton-service/configurations/enable-source-collection/">Source Collection</a>.</li>
+<li><strong>Java 8 (Java 9+ are not supported, will get compiler issue)</strong></li>
+<li><strong>Git</strong></li>
+<li><strong>Docker</strong></li>
 </ul>
-<p><strong>Prerequisites</strong></p>
+<h1 id="2-create-singleton-database-docker-image">2. Create Singleton Database docker image</h1>
+<h2 id="21-required">2.1 Required</h2>
 <ul>
-<li><a href="https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">JDK8</a> is installed and works well on your environment, as Singleton Service is based on JAVA language development.</li>
-<li>The ports (8088, 8090, 8091) are allowed to access and not in use, as Singleton service run based on these ports.</li>
+<li><strong>Linux 64-bit Operation System and install docker successfully</strong></li>
 </ul>
-<p><strong>To start Singleton Service I18n manager</strong></p>
-<pre><code>java -jar singleton-manager-i18n-0.1.0.jar
-</code></pre><p><strong>To Start Singleton Service L10n manager</strong></p>
-<pre><code>java -jar singleton-manager-l10n-0.1.0.jar
-</code></pre><h1 id="singleton-sdk-010-binaries">Singleton SDK 0.1.0 Binaries</h1>
-<h2 id="downloading-1">Downloading</h2>
-<table>
-<thead>
-<tr>
-<th>filename</th>
-<th>sha1 hash</th>
-<th>branch/tag</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="http://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.1.0/singleton-client-java-0.1.0.jar">singleton-client-java-0.1.0.jar </a></td>
-<td><code>d27afa9e1659759805e320daab7d8d0e5f7b8da2</code></td>
-<td>g11n-java-client/<a href="https://github.com/vmware/singleton/releases/tag/v0.1.0-Singleton-Java-Client">v0.1.0-Singleton-Java-Client</a></td>
-</tr>
-<tr>
-<td><a href="https://www.npmjs.com/package/@singleton-i18n/js-core-sdk/v/0.1.0">@singleton-i18n/js-core-sdk@0.1.0</a></td>
-<td><code>1e776e866ded0751d39ea391cae29b412089fcc1</code></td>
-<td>g11n-js-client/<a href="https://github.com/vmware/singleton/releases/tag/v0.1.0-Singleton-JS-Client">v0.1.0-Singleton-JS-Client</a></td>
-</tr>
-<tr>
-<td><a href="https://www.npmjs.com/package/@singleton-i18n/angular-client/v/0.1.0">@singleton-i18n/angular-client@0.1.0</a></td>
-<td><code>8f8ae3ca2ef6e1bfccd828fc1b9e4c6e74f6be20</code></td>
-<td>g11n-angular-client/<a href="https://github.com/vmware/singleton/releases/tag/v0.1.0-Singleton-Angular-Client">v0.1.0-Singleton-Angular-Client</a></td>
-</tr>
-</tbody>
-</table>
+<h2 id="22-prepare-the-init-db-scripts">2.2 Prepare the init db scripts</h2>
+<h3 id="221-prepare-the-create-users-and-databases-sql-scripts-vipinitdbsql">2.2.1 prepare the create users and databases sql scripts vipinitdb.sql</h3>
+<pre><code>CREATE USER pgvipconfig WITH PASSWORD 'vipconfig';
+ 
+CREATE USER pgvipdata WITH PASSWORD 'vipdata';
+ 
+CREATE DATABASE vipconfig OWNER pgvipconfig;
+ 
+CREATE DATABASE vipdata0 OWNER pgvipdata;
 
+CREATE DATABASE vipdata1 OWNER pgvipdata;
+</code></pre><h3 id="222-prepare-the-create-config-tab-sql-scripts-vipinitconfigtabsql">2.2.2 prepare the create config tab sql scripts vipinitconfigtab.sql</h3>
+<pre><code>create table vip_product(id bigint not null, product character varying(100) not null, datasource character varying(50) not null,
+                          status  smallint not null default 0, created_userid bigint, crt_time timestamp);
+                          
+create sequence vip_product_seq increment by 1 minvalue 1 no maxvalue start with 1;
+ 
+alter table vip_product add primary key(id);
+ 
+alter table vip_product alter column id set default nextval('vip_product_seq');
+ 
+alter table vip_product add constraint uk_vip_product unique(product);
+</code></pre><h3 id="223-prepare-the-create-data-table-sql-scripts-vipinitdatatabsql">2.2.3 prepare the create data table sql scripts vipinitdatatab.sql</h3>
+<pre><code>create table vip_msg(id bigint not null, product character varying(100) not null,
+ 
+                                         version character varying(50) not null,
+ 
+                                         component character varying(100) not null,
+ 
+                                         locale character varying(100) not null,
+ 
+                                         messages jsonb,
+ 
+                                         crt_time timestamp) partition by list(product);
+ 
+</code></pre><h2 id="23-prepare-the-dockerfile">2.3 prepare the Dockerfile</h2>
+<pre><code>FROM postgres:10.3
+
+ENV INITDB_PATH /usr/local/initdb
+
+ENV AUTO_RUN_DIR /docker-entrypoint-initdb.d
+
+RUN mkdir -p $INITDB_PATH
+ 
+COPY ./vipinitdb.sql $INITDB_PATH/
+ 
+COPY ./vipinitdatatab.sql $INITDB_PATH/
+ 
+COPY ./vipinitconfigtab.sql $INITDB_PATH/
+ 
+COPY ./vipinstalldb.sh $AUTO_RUN_DIR/
+ 
+RUN chmod a+x $AUTO_RUN_DIR/vipinstalldb.sh
+</code></pre><h3 id="24-prepare-the-execute-shell-vipinstalldbsh">2.4 prepare the execute shell vipinstalldb.sh</h3>
+<pre><code> psql -U postgres  -d postgres -f $INITDB_PATH/vipinitdb.sql
+ 
+ psql -U pgvipconfig -d vipconfig -f $INITDB_PATH/vipinitconfigtab.sql
+ 
+ psql -U pgvipdata -d vipdata0 -f $INITDB_PATH/vipinitdatatab.sql
+ 
+ psql -U pgvipdata -d vipdata1 -f $INITDB_PATH/vipinitdatatab.sql
+</code></pre><h2 id="25-build-the-docker-image">2.5 build the docker image</h2>
+<h3 id="251-pull-the-postgresql-dbs-official--docker-image">2.5.1 pull the postgresql DB’s official  docker image</h3>
+<pre><code>  docker pull postgres:10.3
+</code></pre><h3 id="252-you-need-the-mv-the--all-file-under-same-directory-as-following-show">2.5.2 you need the mv the  all file under same directory as following show</h3>
+<pre><code>tiger@docker:~/initdb$ ls
+ 
+Dockerfile  vipinitconfigtab.sql  vipinitdatatab.sql  vipinitdb.sql  vipinstalldb.sh
+</code></pre><h3 id="253-execute-docker-build">2.5.3 execute docker build</h3>
+<pre><code>  docker build -t vipdb_pg:v1 .
+</code></pre><h2 id="26-run-docker-image">2.6 run docker image</h2>
+<pre><code>tiger@docker:~$ docker run --name='vipdb' -d  -p 5432:5432 vipdb_pg:v1
+ 
+1c9c7864aa3f21af6d0c27932be833465935418a5b6e8a495a1b58dce44fbb78
+ 
+tiger@docker:~$ docker ps
+ 
+CONTAINER ID        IMAGE                                                             COMMAND                  CREATED             STATUS              PORTS                    NAMES
+ 
+1c9c7864aa3f        vipdb_pg:v1   &quot;docker-entrypoint.s...&quot;   4 seconds ago       Up 3 seconds        0.0.0.0:5432-&gt;5432/tcp   vipdb
+</code></pre><h1 id="3-compile-db-builder-installer">3. Compile DB builder installer</h1>
+<h2 id="31-clone-the-repository-using-git">3.1 Clone the repository using Git.</h2>
+<pre><code>git clone https://github.com/vmware/singleton.git
+</code></pre><p>Or</p>
+<pre><code>git clone git@github.com:vmware/singleton.git
+</code></pre><h2 id="32-modify-the-configurations">3.2 Modify the configurations</h2>
+<h3 id="321-modify-gradleproperties-and-set-datatype-to-pgdb">3.2.1 Modify gradle.properties and set datatype to pgdb</h3>
+<pre><code>branchName =
+
+buildNumber = 0.1.0
+profileName = 
+# if datatype value is pgdb, will include md-data-api-pgimpl module, if datatype value is s3, will include md-data-api-s3impl module, 
+# else will include md-data-api-bundleimpl module
+datatype=pgdb
+# add the sync data module
+syncdata=false
+</code></pre><h3 id="322-create-vip-manager-i18nsrcmainresourcesapplication-pgdbyml-as-following">3.2.2 Create vip-manager-i18n/src/main/resources/application-pgdb.yml as following:</h3>
+<pre><code>spring:
+  application:
+    name: Singleton 
+#the following is datasoures configuration
+  datasource: 
+    name: config
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://{yourIPAddress}:5432/vipconfig
+    username: pgvipconfig
+    password: vipconfig
+#Initialize the connection pool parameters.
+    initialSize: 5
+    minIdle: 5
+    maxActive: 30
+#max wait time ms when get a db connection
+    maxWait: 60000
+# the interval time of check the idle db connection 
+    timeBetweenEvictionRunsMillis: 60000
+# the min life time of a connection   
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+# open the PSCache and configurate the capacity of every connection  
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    postgres:
+      datasoures: 
+        # the vip datanodes' data source
+        - name: vipdata1
+          type: com.alibaba.druid.pool.DruidDataSource
+          driverClassName: org.postgresql.Driver
+          url: jdbc:postgresql://{yourIPAddress}:5432/vipdata1
+          username: pgvipdata
+          password: vipdata
+  #Initialize the connection pool parameters.
+          initialSize: 5
+          minIdle: 5
+          maxActive: 30
+
+          maxWait: 60000
+ 
+          timeBetweenEvictionRunsMillis: 60000
+ 
+          minEvictableIdleTimeMillis: 300000
+
+          validationQuery: SELECT 'x'
+          testWhileIdle: true
+          testOnBorrow: false
+          testOnReturn: false
+ 
+          poolPreparedStatements: true
+          maxPoolPreparedStatementPerConnectionSize: 20
+#configurate  Monitoring &amp; Statistics filters  
+        # filters: stat,wall,slf4j
+# open merge sql and statistic slow SQL function
+         #connectionProperties:druid.stat.mergeSql:true;druid.stat.slowSqlMillis:5000
+# combine  DruidDataSources monitor data
+         #useGlobalDataSourceStat:true 
+    
+        - name: vipdata0
+          type: com.alibaba.druid.pool.DruidDataSource
+          driverClassName: org.postgresql.Driver
+          url: jdbc:postgresql://{yourIPAddress}:5432/vipdata0
+          username: pgvipdata
+          password: vipdata
+    #Initialize the connection pool parameters.
+          initialSize: 5
+          minIdle: 5
+          maxActive: 30
+          maxWait: 60000
+ 
+          timeBetweenEvictionRunsMillis: 60000
+ 
+          minEvictableIdleTimeMillis: 300000
+
+          validationQuery: SELECT 'x'
+          testWhileIdle: true
+          testOnBorrow: false
+          testOnReturn: false
+ 
+          poolPreparedStatements: true
+          maxPoolPreparedStatementPerConnectionSize: 20
+ 
+        # filters: stat,wall,slf4j
+
+         #connectionProperties:druid.stat.mergeSql:true;druid.stat.slowSqlMillis:5000
+
+         #useGlobalDataSourceStat:true 
+
+# logging
+logging:
+  config: classpath:log4j2-spring.xml
+
+# EMBEDDED SERVER CONFIGURATION (ServerProperties)
+server:
+  scheme: https
+  port: 8090
+  max-http-header-size: 8192
+  https: 
+    key-store: classpath:vip.jks
+    key-store-password: 123456
+    key-password: 123456
+    key-store-type: JKS
+    key-alias: server
+  http: 
+    port: -1
+  trace:
+    enable: false
+#collection source server
+source:
+  cache:
+    flag: false
+    server:
+      url: https://localhost:8088
+#translation synch
+translation:
+  synch:
+    git:
+      flag: false
+pseudo:
+  notExistSourceTag: '@@'
+  existSourceTag: '#@'
+csp:
+  api:
+    auth:
+      enable: false
+vipservice:
+  authority:
+    enable: false
+    session:
+      expiretime: 30
+    token:
+      expiretime: 130
+  cross:
+    domain:
+      enable: true
+      alloworigin: '*'
+      maxage: 3600
+      allowmethods: GET, POST, PUT, DELETE, OPTIONS
+      allowheaders: csp-auth-token, Content-Type
+cache-control:
+  value=max-age: 604800, public
+#swagger2-ui switch
+swagger-ui:
+  enable: true
+#actuator
+management:
+  endpoints:
+    web:
+      base-path: /actuator
+      exposure:
+        include: info, health
+    jmx: 
+      exposure:
+        exclude: '*'
+</code></pre><h3 id="323--modify-vip-manager-i18nsrcmainresourcesapplicationproperties-as-following">3.2.3  Modify vip-manager-i18n/src/main/resources/application.properties as following</h3>
+<pre><code>##
+#Copyright 2019 VMware, Inc.
+#SPDX-License-Identifier: EPL-2.0
+##
+
+#build version information
+build.number.builddate=3/14/2018
+build.number.buildnumber=7953895
+build.number.branch=master
+# enable default config 
+spring.profiles.active=pgdb
+</code></pre><h3 id="324-build-the-singleton-source-code">3.2.4 Build the singleton source code</h3>
+<p>Go to singleton/g11n-ws to run a build using Gradle.</p>
+<pre><code>cd singleton/g11n-ws
+./gradlew build
+</code></pre><p>Jar files will be generated inside the following location:</p>
+<p>singleton/publish (Eg. singleton/publish/singleton-0.1.0.jar)</p>
+<h1 id="4-to-start-using-singleton-service">4 To start using Singleton Service</h1>
+<h2 id="41-start-singleton-server">4.1 Start Singleton server</h2>
+<p>Navigate to singleton/publish and run the Spring Boot main application.</p>
+<pre><code>cd ../publish
+java -jar singleton-0.1.0.jar
+</code></pre><p>A user interface for testing all available API endpoints will be available in the following URL:</p>
+<p>https://localhost:8090/i18n/api/doc/swagger-ui.html
+or</p>
+<p>http://localhost:8091/i18n/api/doc/swagger-ui.html</p>
+<h2 id="42-add-the-test-data">4.2 Add the test data</h2>
+<p>The following is the way with curl tool to add test data. You need to install the curl tool successfully before use below command.</p>
+<pre><code>curl -X PUT &quot;https://localhost:8090/i18n/api/v2/translation/products/Testing/versions/1.0.0&quot; -H &quot;accept: application/json;charset=UTF-8&quot; -H &quot;Content-Type: application/json&quot; -d &quot;{ \&quot;data\&quot;: { \&quot;creation\&quot;: { \&quot;operationid\&quot;: \&quot;test12345\&quot; }, \&quot;dataOrigin\&quot;: \&quot;string\&quot;, \&quot;machineTranslation\&quot;: true, \&quot;productName\&quot;: \&quot;Testing\&quot;, \&quot;pseudo\&quot;: false, \&quot;translation\&quot;: [ { \&quot;component\&quot; : \&quot;component1\&quot;, \&quot;messages\&quot;: { \&quot;sample.apple\&quot; : \&quot;apple\&quot;, \&quot;sample.banana\&quot; : \&quot;banana\&quot;, \&quot;sample.cat\&quot; : \&quot;cat\&quot;, \&quot;sample.dog\&quot; : \&quot;dog\&quot;, \&quot;sample.egg\&quot; : \&quot;egg\&quot;, \&quot;sample.fly\&quot; : \&quot;fly\&quot;, \&quot;sample.giant\&quot; : \&quot;giant\&quot; }, \&quot;locale\&quot; : \&quot;en\&quot;},{ \&quot;component\&quot; : \&quot;component1\&quot;, \&quot;messages\&quot; : { \&quot;sample.apple\&quot; : \&quot;manzana\&quot;, \&quot;sample.banana\&quot; : \&quot;plátano\&quot;, \&quot;sample.cat\&quot; : \&quot;gato\&quot;, \&quot;sample.dog\&quot; : \&quot;perro\&quot;, \&quot;sample.egg\&quot; : \&quot;huevo\&quot;, \&quot;sample.fly\&quot; : \&quot;volar\&quot;, \&quot;sample.giant\&quot; : \&quot;gigante\&quot; }, \&quot;locale\&quot; : \&quot;es\&quot;} ], \&quot;version\&quot;: \&quot;1.0.0\&quot; }, \&quot;requester\&quot;: \&quot;ManulTest\&quot;}&quot;
+</code></pre><p>You can access other API  use following data.</p>
+<pre><code>{
+&quot;prductName&quot;: &quot;Testing&quot;,
+&quot;version&quot;: &quot;1.0.0&quot;,
+&quot;messages&quot;:[
+{
+    &quot;component&quot; : &quot;component1&quot;,
+    &quot;messages&quot;: {
+        &quot;sample.apple&quot; : &quot;apple&quot;,
+        &quot;sample.banana&quot; : &quot;banana&quot;,
+        &quot;sample.cat&quot; : &quot;cat&quot;,
+        &quot;sample.dog&quot; : &quot;dog&quot;,
+        &quot;sample.egg&quot; : &quot;egg&quot;,
+        &quot;sample.fly&quot; : &quot;fly&quot;,
+        &quot;sample.giant&quot; : &quot;giant&quot;
+    },
+    &quot;locale&quot; : &quot;en&quot;
+},
+{
+  &quot;component&quot; : &quot;component1&quot;,
+  &quot;messages&quot; : {
+    &quot;sample.apple&quot; : &quot;manzana&quot;,
+    &quot;sample.banana&quot; : &quot;plátano&quot;,
+    &quot;sample.cat&quot; : &quot;gato&quot;,
+    &quot;sample.dog&quot; : &quot;perro&quot;,
+    &quot;sample.egg&quot; : &quot;huevo&quot;,
+    &quot;sample.fly&quot; : &quot;volar&quot;,
+    &quot;sample.giant&quot; : &quot;gigante&quot;
+  },
+  &quot;locale&quot; : &quot;es&quot;
+}]
+}
+</code></pre>
 
     
     
         <div class="chevrons">
     <div id="navigation">
-<a class="nav nav-prev" href="https://vmware.github.io/singleton/docs/get-started/" title="Get Started"> <i class="fa fa-chevron-left"></i><label>Get Started</label></a>
-    <a class="nav nav-next" href="https://vmware.github.io/singleton/docs/get-started/quick-start/" title="Quick Start" style="margin-right: 0px;"><label>Quick Start</label><i class="fa fa-chevron-right"></i></a></div>
+<a class="nav nav-prev" href="https://vmware.github.io/singleton/docs/overview/singleton-service/" title="Singleton Service"> <i class="fa fa-chevron-left"></i><label>Singleton Service</label></a>
+    <a class="nav nav-next" href="https://vmware.github.io/singleton/docs/overview/singleton-service/singleton-service-script/" title="Singleton Service Script" style="margin-right: 0px;"><label>Singleton Service Script</label><i class="fa fa-chevron-right"></i></a></div>
   </div>
 
   </section>
@@ -540,7 +813,7 @@
 
     
     <div class="date">
-        <i class='fa fa-calendar'></i> Last update on 24/09/2019
+        <i class='fa fa-calendar'></i> Last update on 02/07/2020
     </div>
     
 
